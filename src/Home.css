@@ -1,0 +1,47 @@
+.Blog {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.Blog h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.Blog p {
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.cta button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta button:first-child {
+    background-color: #007bff;
+    color: white;
+}
+
+.cta button:last-child {
+    background-color: #28a745;
+    color: white;
+}
+
+.cta button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
